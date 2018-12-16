@@ -1,0 +1,17 @@
+{
+  "name": "dogcat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow/tfjs": "^0.14.1",
+    "express": "^4.16.4",
+    "glitch-deploy": "^1.1.6",
+    "nodemon": "^1.18.8"
+  }
+}

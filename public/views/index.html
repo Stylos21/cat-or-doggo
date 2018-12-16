@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css" />
+</head>
+<body>
+    <section class="hero is-bold is-dark is-fullheight">
+        <div class="hero-body">
+            <div class="container">
+                <div class="title">Cat vs Dog Classification</div>
+                <h4>Upload an image and then the neural network will test the data.</h4>
+                <br>
+
+                <button id="btn" class="button is-primary">Predict</button>
+                <br>
+                <br>
+                <input id="in" class="is-primary" type="file">
+                <br>
+                
+                <img id="output">
+                <div id="oof">
+                    <p id="hi"></p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <script src="./scripts/client.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.14.1/dist/tf.min.js"> </script>
+
+</body>
+</html>
