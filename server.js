@@ -33,5 +33,3 @@ app.get('/data/group1-shard3of4', (req, res) => {
 app.get('/data/group1-shard4of4', (req, res) => {
     res.sendFile(`${__dirname}/public/data/group1-shard1of4`)
 })
-
-// test commit
